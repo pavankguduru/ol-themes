@@ -1,0 +1,48 @@
+:root,
+:host {
+  --ol-background-color: black;
+  --ol-accent-background-color: #F5F5F5;
+  --ol-subtle-background-color: rgba(128,128,128,.25);
+  --ol-partial-background-color: rgba(0,0,0,.75);
+  --ol-foreground-color: white;
+  --ol-subtle-foreground-color: rgba(255,255,255,.95);
+  --ol-brand-color: #00AAFF;
+}
+
+.ol-control,
+.ol-control button,
+.ol-zoom .ol-zoom-in, 
+.ol-zoom .ol-zoom-out,
+.ol-overviewmap-map,
+.ol-overviewmap-map .ol-viewport {
+  border-radius: 100%;
+}
+
+.ol-scale-line,
+.ol-scale-line-inner,
+.ol-zoomslider,
+.ol-attribution,
+.ol-mouse-position {
+  border-radius: 1.375em;
+}
+
+.ol-zoom.ol-control {
+  background-color: unset;
+}
+
+.ol-zoomslider {
+  height: calc(200px + 0.6875em);
+}
+
+.ol-zoomslider button {
+  height: 1.375em;
+}
+
+.ol-overviewmap .ol-overviewmap-map {
+  border: 2px solid var(--ol-partial-background-color);
+}
+
+.ol-mouse-position {
+  background-color: var(--ol-subtle-background-color);
+  padding: 0.2em 0.6em;
+}
